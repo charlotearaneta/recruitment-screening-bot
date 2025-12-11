@@ -81,9 +81,14 @@ python src/screen_candidate.py
 
 Here is an example of how the Recruitment Screening Bot evaluates a candidate against a job description.  
 
-## This output is generated directly from the Python script using the OpenAI model.
+## 🚀 Live Project
+
+Here is an example of how the Recruitment Screening Bot evaluates a candidate against a job description.
+
+### This output is generated directly from the Python script using the OpenAI model.
 
 
+```json
 {
   "score": 82,
   "summary": "The candidate demonstrates strong foundational skills for the IT Support role. Their background aligns with the required troubleshooting and customer support tasks, and they show willingness to grow in the field.",
@@ -100,16 +105,7 @@ Here is an example of how the Recruitment Screening Bot evaluates a candidate ag
   "recommendation": "Good Fit"
 }
 
-
-
-🖥 Experience SolaceMind here: https://recruit.github.io
-
-The landing page includes:
-- Concept
-- Technology
-- Benefits
-- Features
-- Roadmap
+```
 
 
 ---
