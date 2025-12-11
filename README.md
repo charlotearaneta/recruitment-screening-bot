@@ -24,7 +24,7 @@ Clear scoring and breakdown for HR decision-making.
 ### ✔ Beginner-Friendly Python Code  
 No complex dependencies — easy to modify and extend.
 
-### ✔ Custom Prompt Engineering  
+### ✔ Custom Prompt Engineering 
 Guides the AI to respond with unbiased, HR-aligned analysis.
 
 ### ✔ Ready for Expansion  
@@ -154,3 +154,14 @@ A complete HR-Tech ecosystem that supports:
 Empowering small companies, startups, and HR teams with accessible, automated recruitment tools.
 
 ---
+
+🤝 **Contributions** 
+
+Open to suggestions, improvements, and pull requests!
+
+📬 Contact
+
+Created by Charlote Araneta
+🔗 Portfolio: https://charlotearaneta.github.io
+
+🔗 LinkedIn: https://www.linkedin.com/in/charlotearaneta/
