@@ -76,11 +76,15 @@ python src/screen_candidate.py
 ---
 
 
-## 🖼 Demo
+## 🚀 Live Project
+🖥 Experience SolaceMind here: https://recruit.github.io
 
-- 📝 Job Description Input
-- 👤 Candidate Résumé Input
-- 🔎 AI Screening Output
+The landing page includes:
+- Concept
+- Technology
+- Benefits
+- Features
+- Roadmap
 
 
 ---
