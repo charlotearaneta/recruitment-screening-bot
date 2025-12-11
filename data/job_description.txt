@@ -2,7 +2,7 @@ Position: Junior IT Support Specialist
 
 Responsibilities:
 - Provide technical support for hardware, software, and network issues
-- Assist in troubleshooting OS, connectivity, and user accounts
+- Assist in troubleshooting OS, connectivity, and user accounts  
 - Document issues and resolutions
 - Collaborate with the IT team for system improvements
 
