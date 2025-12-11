@@ -22,7 +22,7 @@ Reads résumé + job description files and returns AI-generated assessments.
 Clear scoring and breakdown for HR decision-making.
 
 ### ✔ Beginner-Friendly Python Code  
-No complex dependencies — easy to modify and extend.
+No complex dependencies, easy to modify and extend.
 
 ### ✔ Custom Prompt Engineering  
 Guides the AI to respond with unbiased, HR-aligned analysis.
@@ -45,7 +45,94 @@ Can be turned into a web app or integrated into ATS systems.
 ## 🚀 Getting Started
 
 ### 1. Clone the repo  
-```bash
+
+bash
 git clone https://github.com/yourusername/recruitment-screening-bot.git
 cd recruitment-screening-bot
 
+### 2. Install dependencies  
+
+bash
+pip install -r requirements.txt
+
+## 3. Add your OpenAI API key
+
+macOS / Linux:
+
+bash
+export OPENAI_API_KEY="your_key_here"
+
+Windows PowerShell:
+
+powershell
+$env:OPENAI_API_KEY="your_key_here"
+
+## 4. Run the script
+
+bash
+python src/screen_candidate.py
+
+
+---
+
+
+## 🖼 Demo
+
+- 📝 Job Description Input
+- 👤 Candidate Résumé Input
+- 🔎 AI Screening Output
+
+
+---
+
+## 🗺 Roadmap
+
+This roadmap outlines how the Recruitment Screening Bot will progress from a simple Python script into a fully functional HR-Tech automation tool.
+
+Phase 1 — MVP (Current Release)
+
+- Single résumé + job description analysis
+- Python script reads .txt files
+- OpenAI-powered evaluation
+- JSON-style output (score, strengths, gaps, recommendation)
+- Basic documentation
+- Assets folder for screenshots
+
+Phase 2 — User Experience Enhancements
+- Streamlit web interface
+- Résumé upload (TXT / PDF extraction)
+- Clean, structured UI output
+- Adjustable scoring weights
+- Export results to CSV
+
+Phase 3 — Batch Screening & Ranking
+- Evaluate multiple résumés at once
+- Rank candidates by score
+- Highlight top candidates
+- Side-by-side comparison
+- Auto-generate shortlist reports
+
+Phase 4 — ATS-Grade Capabilities
+- PDF résumé parsing
+- Duplicate detection
+- Bias-awareness reminders
+- Integrations: ClickUp, Notion, Google Sheets
+- API version for HR platforms
+
+---
+
+## 🤝 Contributions
+
+Open to suggestions, improvements, and pull requests!
+
+---
+
+## 📬 Contact  
+
+Created by **Charlote Araneta**  
+
+🔗 **Portfolio**: https://charlotearaneta.github.io  
+
+🔗 **LinkedIn**: https://www.linkedin.com/in/charlotearaneta/
+
+---
