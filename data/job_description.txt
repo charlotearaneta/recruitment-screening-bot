@@ -6,7 +6,7 @@ Responsibilities:
 - Document issues and resolutions
 - Collaborate with the IT team for system improvements
 
-Requirements:
+Requirements: 
 - Basic knowledge of networking and operating systems
 - Familiarity with ticketing systems is a plus
 - Strong communication skills
