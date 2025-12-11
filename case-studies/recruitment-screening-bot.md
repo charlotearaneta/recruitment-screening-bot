@@ -103,15 +103,76 @@ This allowed me to refine prompt clarity and scoring consistency.
 
 ---
 
-## 🖼 Demo  
+## 🖼 Demo
 
-```text
-recruitment-screening-bot/
-│
-├─ data/
-│   ├─ job_description.txt
-│   ├─ candidate_resume.txt
-│
-├─ src/
-│   ├─ screen_candidate.py
+- 📝 Job Description Input
+- 👤 Candidate Résumé Input
+- 🔎 AI Screening Output
+
+
+--- 
+
+## 🎯 What I Learned
+
+Building the Recruitment Screening Bot taught me:
+
+✔ AI needs structure to be useful
+
+I learned how important it is to guide the model with clear scoring criteria, JSON-style outputs, and well-defined evaluation rules. Without structure, results become inconsistent.
+
+✔ HR logic can be translated into automation
+
+Turning real-world HR screening workflows into code strengthened my ability to convert policies into algorithms — a core skill for HR-Tech automation.
+
+✔ Prompt engineering is more than asking questions
+
+To ensure fairness and clarity, I designed prompts that mirror how a real recruiter thinks:
+skills → relevance → gaps → recommendation.
+
+This taught me how AI reasoning can be shaped with the right instructions.
+
+✔ Small automations can transform HR workflows
+
+Even a simple bot can reduce repetitive manual screening tasks. This reaffirmed my belief that automation empowers HR teams, freeing them from repetitive work so they can focus on people.
+
+✔ Technical skills grow through real problems
+
+## Building an end-to-end automation tool deepened my confidence in:
+- Python scripting
+- API usage
+- Input/output design
+- Testing and debugging
+- AI-supported decision making
+
+It proved that my transition from HR → Tech is not just theoretical and I’m applying it to real use cases.
+
+
+---
+
+
+# 🌍 Long-Term Vision
+
+To evolve this bot into a full HR-Tech screening platform, with:
+- ATS style dashboards
+- Batch ranking
+- PDF résumé parsing
+- Bias-awareness safeguards
+
+Integration with HR tools like ClickUp, Notion, and HRIS systems
+
+## The Mission:
+Make hiring more efficient, fair, and data-driven for small teams and growing companies.
+
+
+---
+
+## 📬 Contact  
+
+Created by **Charlote Araneta**  
+
+🔗 **Portfolio**: https://charlotearaneta.github.io  
+
+🔗 **LinkedIn**: https://www.linkedin.com/in/charlotearaneta/
+
+---
 
