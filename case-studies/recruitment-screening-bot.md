@@ -105,14 +105,6 @@ This allowed me to refine prompt clarity and scoring consistency.
 
 ## 🖼 Demo  
 
-(Add after you upload them)  
-Suggested screenshots:
-
-- Terminal running the script  
-- JSON output sample  
-- Folder structure  
-- Example job description and résumé inputs  
-
 ```text
 recruitment-screening-bot/
 │
