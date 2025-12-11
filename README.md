@@ -78,11 +78,6 @@ python src/screen_candidate.py
 
 ## 🚀 Live Project
 
-
-Here is an example of how the Recruitment Screening Bot evaluates a candidate against a job description.  
-
-## 🚀 Live Project
-
 Here is an example of how the Recruitment Screening Bot evaluates a candidate against a job description.
 
 ### This output is generated directly from the Python script using the OpenAI model.
