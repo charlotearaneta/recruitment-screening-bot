@@ -1,1 +1,17 @@
+Name: John Smith
+
+Background:
+- 1 year experience as Service Desk Associate
+- Familiar with Windows, basic networking, and troubleshooting
+
+Skills:
+- Customer support
+- Basic network configuration
+- Documentation
+
+Education:
+- BS Information Technology, 2022
+
+Certifications:
+- Google IT Support Professional Certificate
 
