@@ -42,26 +42,9 @@ Can be turned into a web app or integrated into ATS systems.
 
 ---
 
+## 🚀 Getting Started
 
-## 📂 Project Structure
-
-```text
-recruitment-screening-bot/
-│
-├─ data/
-│  ├─ job_description.txt
-│  ├─ candidate_resume.txt
-│
-├─ src/
-│  ├─ screen_candidate.py
-│
-├─ assets/
-│  ├─ ai-output.png
-│  ├─ resume-sample.png
-│  ├─ project-structure.png
-│
-├─ requirements.txt
-└─ README.md
-
-
----
+### 1. Clone the repo  
+```bash
+git clone https://github.com/yourusername/recruitment-screening-bot.git
+cd recruitment-screening-bot
