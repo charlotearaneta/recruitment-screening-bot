@@ -2,7 +2,7 @@ Name: John Smith
 
 Background:
 - 1 year experience as Service Desk Associate
-- Familiar with Windows, basic networking, and troubleshooting
+- Familiar with Windows, basic networking, and troubleshooting 
 
 Skills:
 - Customer support
