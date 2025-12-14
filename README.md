@@ -63,6 +63,7 @@ Can be turned into a web app or integrated into ATS systems.
 
 ---
 
+
 ## 🧠 How It Works
 
 ### 1. Load Inputs  
@@ -84,8 +85,34 @@ The AI returns a structured evaluation containing:
 ### 4. Output Display  
 Results are printed in a clear, JSON-style format for easy interpretation.
 
-
 ---
+
+## 📥 Input Example (candidate_resume.txt)
+
+```text
+IT Support Intern with hands-on experience in troubleshooting hardware and software issues.
+Certified in Google IT Support and familiar with basic networking concepts.
+
+```
+
+## 📥 Output Example (AI Evaluation JSON)
+
+```bash 
+{
+  "score": 82,
+  "summary": "The candidate demonstrates a strong foundational skill set for the IT Support role, with relevant troubleshooting experience and customer-facing skills.",
+  "strengths": [
+    "Google IT Support certification",
+    "Hands-on troubleshooting experience",
+    "Strong communication skills"
+  ],
+  "gaps": [
+    "Limited enterprise IT environment exposure"
+  ],
+  "recommendation": "Good Fit"
+}
+
+```
 
 ## 🛠 Tech Stack
 
@@ -101,32 +128,42 @@ Results are printed in a clear, JSON-style format for easy interpretation.
 
 ### 1. Clone the repo  
 
-bash
+```bash
 git clone https://github.com/yourusername/recruitment-screening-bot.git
 cd recruitment-screening-bot
 
+```
+
 ### 2. Install dependencies  
 
-bash
+```bash
 pip install -r requirements.txt
 
-## 3. Add your OpenAI API key
+```
+
+### 3. Add your OpenAI API key
 
 macOS / Linux:
 
-bash
+```bash
 export OPENAI_API_KEY="your_key_here"
+
+```
 
 Windows PowerShell:
 
-powershell
+```powershell
 $env:OPENAI_API_KEY="your_key_here"
 
-## 4. Run the script
+```
 
-bash
+### 4. Run the script
+
+```bash
 python src/screen_candidate.py
 
+
+```
 
 ---
 
