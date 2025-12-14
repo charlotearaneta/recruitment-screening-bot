@@ -3,13 +3,44 @@
 
 The AI Recruitment Screening Bot is a lightweight Python tool that evaluates a candidate’s résumé against a job description. It uses an LLM (OpenAI GPT model) to generate a structured, bias-aware assessment including:
 
-- Match score (0–100)  
-- Summary of candidate fit  
-- Key strengths  
-- Skill gaps  
-- Hiring recommendation  
-
 This project bridges my **HR background** with my growing skills in **Python, automation, and AI**, demonstrating how technology can improve hiring workflows.
+
+---
+
+## 🌟 Overview
+
+The Recruitment Screening Bot is a lightweight Python application that compares a single résumé with a job description and produces an AI-generated evaluation.  
+
+It outputs:
+- A match score (0–100)
+- A short summary of candidate fit
+- Key strengths
+- Skill or experience gaps
+- A hiring recommendation
+
+This tool is designed as a **foundational HR-Tech building block**, suitable for first-round screening and as a stepping stone toward more advanced applicant tracking systems.
+
+---
+
+## 📂 Project Structure
+
+```text
+recruitment-screening-bot/
+│
+├─ data/
+│   ├─ job_description.txt
+│   └─ candidate_resume.txt
+│
+├─ src/
+│   └─ screen_candidate.py
+│
+├─ assets/
+│   └─ ai-output.png
+│
+├─ requirements.txt
+└─ README.md
+
+```
 
 ---
 
@@ -32,6 +63,30 @@ Can be turned into a web app or integrated into ATS systems.
 
 ---
 
+## 🧠 How It Works
+
+### 1. Load Inputs  
+The script reads:
+- A job description (`job_description.txt`)
+- A candidate résumé (`candidate_resume.txt`)
+
+### 2. AI Evaluation  
+Both inputs are sent to an AI model using a carefully designed prompt that instructs the model to act as an experienced recruiter.
+
+### 3. Structured Response  
+The AI returns a structured evaluation containing:
+- Match score  
+- Summary  
+- Strengths  
+- Gaps  
+- Recommendation  
+
+### 4. Output Display  
+Results are printed in a clear, JSON-style format for easy interpretation.
+
+
+---
+
 ## 🛠 Tech Stack
 
 - **Language:** Python  
@@ -42,7 +97,7 @@ Can be turned into a web app or integrated into ATS systems.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Setup Instructions
 
 ### 1. Clone the repo  
 
@@ -76,7 +131,7 @@ python src/screen_candidate.py
 ---
 
 
-## 🚀 Live Project
+## 🖼 Demo
 
 Here is an example of how the Recruitment Screening Bot evaluates a candidate against a job description.
 
@@ -109,7 +164,7 @@ Here is an example of how the Recruitment Screening Bot evaluates a candidate ag
 
 This roadmap outlines how the Recruitment Screening Bot will progress from a simple Python script into a fully functional HR-Tech automation tool.
 
-Phase 1 — MVP (Current Release)
+Phase 1 — MVP 
 
 - Single résumé + job description analysis
 - Python script reads .txt files
@@ -141,18 +196,39 @@ Phase 4 — ATS-Grade Capabilities
 
 ---
 
-## 🤝 Contributions
+## 🎯 What I Learned
 
-Open to suggestions, improvements, and pull requests!
+Building this project taught me:
+
+- ✔ How to translate HR screening logic into structured AI prompts
+- ✔ The importance of consistency and structure in AI-generated outputs
+- ✔ How automation can reduce repetitive HR tasks
+- ✔ How prompt engineering directly affects evaluation quality
+- ✔ How small tools can form the foundation of scalable HR-Tech systems
+
+## 🌍 Long-Term Vision
+
+This project serves as a stepping stone toward a full AI-powered Applicant Tracking System (ATS) that supports:
+
+- Fairer and more consistent hiring
+
+- Faster first-round screening
+
+- Data-driven recruitment decisions
+
+- Integration with HR workflow tools
+
+### The goal is to augment human recruiters, not replace them.
 
 ---
 
-## 📬 Contact  
+## 📬 Contact
+👩‍💻 Created by: **Charlote Araneta**
 
-Created by **Charlote Araneta**  
+🔗 LinkedIn: https://www.linkedin.com/in/charlotearaneta
 
-🔗 **Portfolio**: https://charlotearaneta.github.io  
+🌐 Portfolio: https://charlotearaneta.github.io
 
-🔗 **LinkedIn**: https://www.linkedin.com/in/charlotearaneta/
+
 
 ---
