@@ -1,13 +1,20 @@
 # 🤖 AI Recruitment Screening Bot  
 ## Case Study  
 
-The AI Recruitment Screening Bot is a Python-based tool that analyzes résumés against job descriptions using an LLM (OpenAI). It provides structured, unbiased, and instant evaluations to support hiring teams in making more informed decisions.
+AI Recruitment Screening Bot is a Python-based HR-Tech project that applies AI to automate first-round résumé screening. The tool evaluates a candidate’s résumé against a job description using a Large Language Model (OpenAI) and produces structured, unbiased insights—including match scores, strengths, gaps, and hiring recommendations.
 
-This project combines my **HR background** with my **new technical skills** in Python, automation, and AI making it a perfect demonstration of my HR-Tech transition.
+This project was developed as part of my transition from **Human Resources to technology**, combining my HR domain knowledge with newly acquired skills in **Python, automation, and AI**. It demonstrates how AI can augment recruitment workflows by handling repetitive screening tasks while preserving human judgment in final hiring decisions.
 
 ---
 
-## 📌 Problem I Wanted to Solve  
+## 1. Executive Summary
+
+The **AI Recruitment Screening Bot** is a Python-based HR-Tech solution designed to automate and standardize first-round résumé screening. Using a Large Language Model (OpenAI), the tool evaluates a candidate’s résumé against a job description and generates structured, bias-aware insights including match scores, strengths, gaps, and hiring recommendations.
+
+
+---
+
+## 2. Problem Statement
 
 During my years in recruitment and HR, I consistently saw these issues:
 
@@ -22,12 +29,16 @@ I wanted to create a tool that:
 - **automates the first-level screening**,  
 - provides **objective, structured evaluation**,  
 - and reduces the recruiter’s workload.
+  
+For small teams and growing organizations, these challenges can delay hiring and reduce the quality of candidate shortlisting.
+
+There is a clear need for a **lightweight, automated screening tool** that improves efficiency and consistency without replacing human decision-making.
 
 This project bridges **HR expertise** + **AI technology** to create a productivity tool that’s simple yet powerful.
 
 ---
 
-## 👥 Who It Helps  
+## Who It Helps  
 
 ### This bot is helpful for:
 
@@ -39,140 +50,105 @@ This project bridges **HR expertise** + **AI technology** to create a productivi
 
 Ultimately, it increases efficiency, reduces bias, and provides a consistent evaluation framework.
 
----
-
-## 🛠 My Process  
-
-### **1. Defined the Core Task**  
-Break down what happens in real résumé screening:  
-- Review job requirements  
-- Scan candidate résumé  
-- Identify skill match  
-- Identify gaps  
-- Provide a clear decision  
-
-This became the structure for the bot’s output.
 
 ---
 
-### **2. Designed the Prompt for AI Reasoning**  
-I engineered a prompt that ensures the AI evaluates:
+## 3. Objective
 
-- Skill alignment  
-- Experience relevance  
+The objective of the AI Recruitment Screening Bot is to:
+
+- Automate first-round résumé screening  
+- Provide structured and objective candidate evaluations  
+- Reduce manual workload for recruiters  
+- Improve consistency in candidate assessment  
+- Serve as a foundation for more advanced HR-Tech systems  
+
+The tool is designed to **support recruiters**, not replace them, by providing clear insights that inform hiring decisions.
+
+---
+
+## 4. Solution Overview
+
+The AI Recruitment Screening Bot evaluates a single résumé against a job description and produces a structured assessment that includes:
+
+- Match score (0–100)  
+- Summary of candidate fit  
+- Key strengths  
+- Skill or experience gaps  
+- Hiring recommendation  
+
+By leveraging Python and OpenAI models, the tool converts unstructured résumé data into actionable recruitment insights. The output format is consistent and recruiter-friendly, making it easy to interpret and compare candidates.
+
+---
+
+## 5. Technical Approach
+
+### a. Input Handling  
+The script reads two input files:
+- A job description (`job_description.txt`)
+- A candidate résumé (`candidate_resume.txt`)
+
+### b. AI Evaluation Logic  
+A carefully designed prompt instructs the AI model to act as an experienced recruiter and return results in a structured JSON format. The prompt emphasizes role alignment, skills, and experience while avoiding sensitive demographic assumptions.
+
+### c. Output Generation  
+The AI returns a structured response containing:
+- Match score  
+- Summary  
+- Strengths  
 - Gaps  
-- Soft skills  
-- Role suitability  
-- Fit score (0–100)  
-- Recommendation (Strong Fit, Good Fit, Needs Development, Not a Fit)
+- Recommendation  
+
+Results are displayed in a clear, JSON-style format for easy review and potential integration into larger HR workflows.
 
 ---
 
-### **3. Built the Python Script**  
-Key features of the script:
+## 6. Impact and Results
 
-- Reads job description and résumé from `/data` folder  
-- Sends both to the OpenAI model  
-- Returns clean structured JSON-like output  
-- Flexible for different job types  
+The AI Recruitment Screening Bot delivers meaningful improvements to the recruitment process:
 
-The goal was to keep it lightweight and beginner-friendly.
+- **Increased efficiency:** Reduces résumé screening time from minutes per résumé to seconds  
+- **Improved consistency:** Ensures every candidate is evaluated using the same criteria  
+- **Reduced bias risk:** Encourages objective, role-focused assessments  
+- **Scalability:** Serves as a building block for batch screening and applicant tracking systems  
 
----
-
-### **4. Tested with Multiple Candidate Profiles**  
-I tested:
-
-- IT Support candidates  
-- Customer service candidates  
-- Fresh graduates  
-- Mid-level tech professionals  
-
-This allowed me to refine prompt clarity and scoring consistency.
+The project demonstrates how even a simple automation can significantly enhance HR productivity.
 
 ---
 
-## ⚙️ Tech Stack  
+## 7. Key Learnings
 
-- **Language:** Python  
-- **AI Model:** OpenAI (GPT-4.1 / GPT-4.1-mini)  
-- **File Handling:** txt-based job and résumé inputs  
-- **Output:** JSON-style structured evaluation  
-- **Tools:** GitHub, Prompt Engineering, VS Code  
-- **Future UI:** Streamlit (planned)
+Building this project taught me:
 
----
+### ✔ How HR logic translates into technical workflows  
+Recruitment criteria must be clearly defined to produce reliable AI outputs.
 
-## 🖼 Demo
+### ✔ The importance of prompt engineering  
+Well-structured prompts are critical for consistent, unbiased evaluations.
 
-- 📝 Job Description Input
-- 👤 Candidate Résumé Input
-- 🔎 AI Screening Output
+### ✔ How automation supports—not replaces—human judgment  
+AI is most effective when used to augment decision-making rather than automate final outcomes.
 
+### ✔ How small tools can enable scalable HR-Tech solutions  
+This project laid the groundwork for more advanced systems such as an Automated Applicant Tracker.
 
---- 
-
-## 🎯 What I Learned
-
-Building the Recruitment Screening Bot taught me:
-
-✔ AI needs structure to be useful
-
-I learned how important it is to guide the model with clear scoring criteria, JSON-style outputs, and well-defined evaluation rules. Without structure, results become inconsistent.
-
-✔ HR logic can be translated into automation
-
-Turning real-world HR screening workflows into code strengthened my ability to convert policies into algorithms — a core skill for HR-Tech automation.
-
-✔ Prompt engineering is more than asking questions
-
-To ensure fairness and clarity, I designed prompts that mirror how a real recruiter thinks:
-skills → relevance → gaps → recommendation.
-
-This taught me how AI reasoning can be shaped with the right instructions.
-
-✔ Small automations can transform HR workflows
-
-Even a simple bot can reduce repetitive manual screening tasks. This reaffirmed my belief that automation empowers HR teams, freeing them from repetitive work so they can focus on people.
-
-✔ Technical skills grow through real problems
-
-## Building an end-to-end automation tool deepened my confidence in:
+### Building an end-to-end automation tool deepened my confidence in:
 - Python scripting
 - API usage
 - Input/output design
 - Testing and debugging
 - AI-supported decision making
 
-It proved that my transition from HR → Tech is not just theoretical and I’m applying it to real use cases.
 
 
 ---
 
+## 📬 Contact
+👩‍💻 Created by: **Charlote Araneta**
 
-# 🌍 Long-Term Vision
+🔗 LinkedIn: https://www.linkedin.com/in/charlotearaneta
 
-To evolve this bot into a full HR-Tech screening platform, with:
-- ATS style dashboards
-- Batch ranking
-- PDF résumé parsing
-- Bias-awareness safeguards
-
-Integration with HR tools like ClickUp, Notion, and HRIS systems
-
-## The Mission:
-Make hiring more efficient, fair, and data-driven for small teams and growing companies.
-
-
----
-
-## 📬 Contact  
-
-Created by **Charlote Araneta**  
-
-🔗 **Portfolio**: https://charlotearaneta.github.io  
-
-🔗 **LinkedIn**: https://www.linkedin.com/in/charlotearaneta/
+🌐 Portfolio: https://charlotearaneta.github.io
 
 ---
 
