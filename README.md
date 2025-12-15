@@ -18,7 +18,7 @@ It outputs:
 - Skill or experience gaps
 - A hiring recommendation
 
-This tool is designed as a **foundational HR-Tech building block**, suitable for first-round screening and as a stepping stone toward more advanced applicant tracking systems.
+This tool is designed as a **foundational HR Tech building block**, suitable for first-round screening and as a stepping stone toward more advanced applicant tracking systems.
 
 ---
 
@@ -199,7 +199,7 @@ Here is an example of how the Recruitment Screening Bot evaluates a candidate ag
 
 ## 🗺 Roadmap
 
-This roadmap outlines how the Recruitment Screening Bot will progress from a simple Python script into a fully functional HR-Tech automation tool.
+This roadmap outlines how the Recruitment Screening Bot will progress from a simple Python script into a fully functional HR Tech automation tool.
 
 Phase 1 — MVP 
 
@@ -241,7 +241,7 @@ Building this project taught me:
 - ✔ The importance of consistency and structure in AI-generated outputs
 - ✔ How automation can reduce repetitive HR tasks
 - ✔ How prompt engineering directly affects evaluation quality
-- ✔ How small tools can form the foundation of scalable HR-Tech systems
+- ✔ How small tools can form the foundation of scalable HR Tech systems
 
 ## 🌍 Long-Term Vision
 
