@@ -38,7 +38,8 @@ recruitment-screening-bot/
 │   └─ ai-output.png
 │
 ├─ requirements.txt
-└─ README.md
+├─ README.md
+└─ case-study.md    
 
 ```
 
