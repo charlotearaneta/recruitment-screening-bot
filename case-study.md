@@ -1,7 +1,7 @@
 # 🤖 AI Recruitment Screening Bot  
 ## Case Study  
 
-AI Recruitment Screening Bot is a Python-based HR-Tech project that applies AI to automate first-round résumé screening. The tool evaluates a candidate’s résumé against a job description using a Large Language Model (OpenAI) and produces structured, unbiased insights—including match scores, strengths, gaps, and hiring recommendations.
+AI Recruitment Screening Bot is a Python-based HR Tech project that applies AI to automate first-round résumé screening. The tool evaluates a candidate’s résumé against a job description using a Large Language Model (OpenAI) and produces structured, unbiased insights, including match scores, strengths, gaps, and hiring recommendations.
 
 This project was developed as part of my transition from **Human Resources to technology**, combining my HR domain knowledge with newly acquired skills in **Python, automation, and AI**. It demonstrates how AI can augment recruitment workflows by handling repetitive screening tasks while preserving human judgment in final hiring decisions.
 
@@ -9,7 +9,7 @@ This project was developed as part of my transition from **Human Resources to te
 
 ## 1. Executive Summary
 
-The **AI Recruitment Screening Bot** is a Python-based HR-Tech solution designed to automate and standardize first-round résumé screening. Using a Large Language Model (OpenAI), the tool evaluates a candidate’s résumé against a job description and generates structured, bias-aware insights including match scores, strengths, gaps, and hiring recommendations.
+The **AI Recruitment Screening Bot** is a Python-based HR Tech solution designed to automate and standardize first-round résumé screening. Using a Large Language Model (OpenAI), the tool evaluates a candidate’s résumé against a job description and generates structured, bias-aware insights including match scores, strengths, gaps, and hiring recommendations.
 
 
 ---
@@ -61,7 +61,7 @@ The objective of the AI Recruitment Screening Bot is to:
 - Provide structured and objective candidate evaluations  
 - Reduce manual workload for recruiters  
 - Improve consistency in candidate assessment  
-- Serve as a foundation for more advanced HR-Tech systems  
+- Serve as a foundation for more advanced HR Tech systems  
 
 The tool is designed to **support recruiters**, not replace them, by providing clear insights that inform hiring decisions.
 
@@ -77,7 +77,7 @@ The AI Recruitment Screening Bot evaluates a single résumé against a job descr
 - Skill or experience gaps  
 - Hiring recommendation  
 
-By leveraging Python and OpenAI models, the tool converts unstructured résumé data into actionable recruitment insights. The output format is consistent and recruiter-friendly, making it easy to interpret and compare candidates.
+By leveraging Python and OpenAI models, the tool converts unstructured résumé data into actionable recruitment insights. The output format is consistent and recruiter friendly, making it easy to interpret and compare candidates.
 
 ---
 
@@ -129,7 +129,7 @@ Well-structured prompts are critical for consistent, unbiased evaluations.
 ### ✔ How automation supports—not replaces—human judgment  
 AI is most effective when used to augment decision-making rather than automate final outcomes.
 
-### ✔ How small tools can enable scalable HR-Tech solutions  
+### ✔ How small tools can enable scalable HR Tech solutions  
 This project laid the groundwork for more advanced systems such as an Automated Applicant Tracker.
 
 ### Building an end-to-end automation tool deepened my confidence in:
