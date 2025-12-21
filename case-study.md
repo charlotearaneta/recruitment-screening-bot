@@ -1,5 +1,5 @@
 # 🤖 Case Study: AI Recruitment Screening Bot  
-## Case Study  
+### * HR Tech Automation for Faster and More Consistent Candidate Screening*
 
 AI Recruitment Screening Bot is a Python based HR Tech project that applies AI to automate first-round résumé screening. The tool evaluates a candidate’s résumé against a job description using a Large Language Model (OpenAI) and produces structured, unbiased insights, including match scores, strengths, gaps, and hiring recommendations.
 
